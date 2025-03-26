@@ -957,23 +957,6 @@ def main():
     
     # Display the viewer
     viewer.display()
-    
-    # Print usage instructions
-    print("\nMenu Viewer with File Upload and Ingredient Highlighting")
-    print("--------------------------------------------------------")
-    print("This enhanced Menu Viewer allows you to upload your database files and highlight specific ingredients.")
-    print("\nHow to use file upload:")
-    print("1. Click 'Upload' and select an Excel (.xlsx) or CSV (.csv) file")
-    print("2. CSV files will be automatically converted to Excel format")
-    print("3. Once uploaded, your file will appear in the dropdown list")
-    print("\nHow to use ingredient highlighting:")
-    print("1. Type an ingredient name in the 'Ingredient:' field and click 'Add'")
-    print("2. Browse recipes to see highlighted items containing your ingredient")
-    print("3. Add multiple ingredients for more detailed highlighting")
-    print("4. Click an ingredient chip to remove it from highlighting")
-    print("5. Use 'Clear All' to remove all ingredient highlights")
-    print("\nHighlighted ingredients appear with gold borders and are bold and italicized in ingredient lists.")
-
 
 if __name__ == "__main__":
     main()
