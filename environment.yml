@@ -2,8 +2,10 @@ name: voici
 channels:
   - https://repo.mamba.pm/emscripten-forge
   - conda-forge
+  - https://raw.githubusercontent.com/atomwrath/menu_viewer/main/packages
 dependencies:
+  - xeus-python
   - pandas
   - ipywidgets
   - pint
-  - openpyxl
+  - openpyxl>=3.1.2
